@@ -71,7 +71,7 @@ a {
 .btn.btn-large {
     font-size: 16px;
     font-weight: 500;
-    padding: 0px 30px;
+    padding: 10px 20px;
 }
 
 .btn.btn-small {
@@ -88,7 +88,10 @@ a {
 .btn.btn-black:hover {
     background-color: #36393f;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2), -1px -1px 20px rgba(0, 0, 0, 0.2), -1px 1px 20px rgba(0, 0, 0, 0.2), 1px -1px 20px rgba(0, 0, 0, 0.2);
+}
 
+.btn.btn-large:hover {
+    box-shadow: 1px 1px 20px rgba(225, 225, 255, 0.4), -1px -1px 20px rgba(225, 225, 255, 0.4), -1px 1px 20px rgba(225, 225, 255, 0.4), 1px -1px 20px rgba(225, 225, 255, 0.4);
 }
 
 main h2 {
@@ -216,18 +219,18 @@ main {
     padding-right: 100px;
 }
 
-.download-section {
-    background-image: url(../img/stars.svg);
-    background-size: cover;
-    height: 400px;
-}
-
-
 .download-section h3 {
-    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .btn-download-section {
-    margin-top: 40px;
-    padding: 20px 0;
+    margin: 40px 0;
 }
+
+
