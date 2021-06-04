@@ -43,13 +43,33 @@ body {
 /* Header - Top-bar */
 header .top-bar {
     width: 100%;
-    height: 10vh;
+    height: 14vh;
     background-color: #3161e0;
     color: #fff;
-    line-height: 10vh;
+    line-height: 14vh;
 }
 
 #logo {
-    vertical-align: middle;
-    
+    vertical-align: middle;   
+    height: 28px;
 }
+
+.col .nav-menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.top-bar .nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0 16px;
+    font-size: 12px;
+}
+
+.top-bar .nav-menu a:hover {
+    text-decoration: underline;
+}
+
+
+
