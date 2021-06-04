@@ -34,6 +34,10 @@ body {
     width: 45%;
 }
 
+.w-80 {
+    width: 80%;
+}
+
 .text-center {
     text-align: center;
 }
@@ -41,7 +45,7 @@ body {
     text-align: right;
 }
 
-.col {
+.col, .float-left {
     float: left;
 }
 
@@ -230,7 +234,35 @@ main {
 }
 
 .btn-download-section {
-    margin: 40px 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
+/* Footer */
+footer {
+    background-color: #23272a;
+    height: 700px;
+    color: #fff;
+}
+
+/* Top - foooter */
+.top-footer .social-box {
+    margin-top: 60px;
+}
+.top-footer .social-box h4 {
+    font-size: 26px;
+    color: #8ea1e1;
+}
+
+.social-box img {
+    height: 12px;
+}
+
+.social-box .language {
+    margin: 14px 0;
+}
+
+.social-box .social .icon {
+    margin-right: 15px;
+}
 
