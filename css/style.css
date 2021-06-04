@@ -216,18 +216,18 @@ main {
     padding-right: 100px;
 }
 
-.dowload-section {
+.download-section {
     background-image: url(../img/stars.svg);
     background-size: cover;
     height: 400px;
 }
-}
 
-.dowload-section h3 {
+
+.download-section h3 {
     margin-top: 20px;
 }
 
-.btn-dowload-section {
+.btn-download-section {
     margin-top: 40px;
     padding: 20px 0;
 }
