@@ -27,6 +27,9 @@ body {
 .w-60 {
     width: 60%;
 }
+.w-40 {
+    width: 40%;
+}
 .w-45 {
     width: 45%;
 }
@@ -81,6 +84,27 @@ a {
     background-color: #36393f;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2), -1px -1px 20px rgba(0, 0, 0, 0.2), -1px 1px 20px rgba(0, 0, 0, 0.2), 1px -1px 20px rgba(0, 0, 0, 0.2);
 
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+main p {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.img-400h {
+    height: 400px;
+}
+
+.margin-100 {
+    margin: 100px 0;
+}
+
+.margin-400 {
+    margin: 400px 0;
 }
 
 /* Body */
@@ -155,9 +179,9 @@ header .top-bar {
 }
 
 .text-spotlight p {
-    font-size: 1em;
     line-height: 25px;
 }
+
 .text-spotlight .button-download {
     margin-top: 30px;
 }
@@ -166,11 +190,27 @@ header .top-bar {
 }
 
 .button-download a{
-    padding: 0 30px;
-    text-align: 16px;
     margin: 0 10px;
 }
 
 a .fa-long-arrow-alt-down {
     padding-right: 5px;
 }
+
+/* Main */
+main {
+    color: #23272a;
+}
+
+.thematic-channels .col.w-40 {
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.voice-channel .col.w-40 {
+    padding-top: 38px;
+    padding-right: 100px;
+}
+
+
+
