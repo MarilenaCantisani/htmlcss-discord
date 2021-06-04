@@ -39,14 +39,38 @@ body {
     float: left;
 }
 
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+.btn.btn-white {
+    color: #262a2d;
+    background-color: #fff;
+}
+
+.btn.btn-small {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.btn.btn-white:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 20px rgba(0, 0, 255, 0.3), -1px -1px 20px rgba(0, 0, 255, 0.3), -1px 1px 20px rgba(0, 0, 255, 0.3), 1px -1px 20px rgba(0, 0, 255, 0.3);
+}
+
 /* Body */
 /* Header - Top-bar */
 header .top-bar {
     width: 100%;
-    height: 14vh;
+    height: 10vh;
     background-color: #3161e0;
     color: #fff;
-    line-height: 14vh;
+    line-height: 10vh;
 }
 
 #logo {
@@ -60,7 +84,6 @@ header .top-bar {
 }
 
 .top-bar .nav-menu a {
-    text-decoration: none;
     color: #fff;
     padding: 10px 0;
     margin: 0 16px;
@@ -73,3 +96,24 @@ header .top-bar {
 
 
 
+.btn {
+    border-radius: 30px;
+}
+
+.btn .btn-white {
+    background-color: #fff;
+    color: #262a2d;
+}
+
+.btn .btn-small {
+    font-size: 12px;
+}
+
+.text-right a {
+    display: inline-block;
+    line-height: 12px;
+}
+/* .text-right a {
+    text-decoration: none;
+
+} */
