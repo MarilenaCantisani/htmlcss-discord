@@ -103,8 +103,8 @@ main p {
     margin: 100px 0;
 }
 
-.margin-400 {
-    margin: 400px 0;
+.margin-300 {
+    margin: 300px 0;
 }
 
 /* Body */
@@ -201,13 +201,12 @@ a .fa-long-arrow-alt-down {
 main {
     color: #23272a;
 }
-
-.thematic-channels .col.w-40 {
+.text-section-right {
     padding-top: 40px;
     padding-left: 100px;
 }
 
-.voice-channel .col.w-40 {
+.text-section-left {
     padding-top: 38px;
     padding-right: 100px;
 }
