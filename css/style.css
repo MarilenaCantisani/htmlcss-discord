@@ -33,6 +33,9 @@ body {
 .w-45 {
     width: 45%;
 }
+.w-50 {
+    width: 50%;
+}
 .w-75 {
     width: 75%;
 }
@@ -255,7 +258,7 @@ main {
 /* Footer */
 footer {
     background-color: #23272a;
-    height: 700px;
+    height: 600px;
     color: #fff;
 }
 
@@ -300,3 +303,39 @@ footer {
 .info-box ul li a:hover {
     text-decoration: underline;
 }
+
+/* Bottom - footer */
+.bottom-footer {
+    height: 100px;
+    margin-top: 50px;
+    border-top: 1px solid #8ea1e1;
+}
+
+.bottom-footer .col .sign-up .text-right {
+    line-height: 100px;
+}
+
+
+.btn-footer {
+    font-size: 14px;
+}
+
+.bottom-footer .sign-up a{
+    display: inline-block;
+    line-height: 14px;
+    background-color: #8ea1e1;
+    border-radius: 30px;
+    padding: 10px 10px;
+    color: #ffff;
+}
+
+.bottom-footer .sign-up  {
+    line-height: 100px;
+} 
+
+.bottom-footer .footer-img {
+    height: 35px;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+
